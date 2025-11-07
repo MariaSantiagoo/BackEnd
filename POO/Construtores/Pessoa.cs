@@ -28,6 +28,19 @@ namespace Construtores
 
         }
 
+        public Pessoa(string n)
+        {
+            Nome = n;
+        }
+
+        public Pessoa (string n, int i, string xpto)
+        {
+            Nome = n;
+            Idade = i;
+             Console.WriteLine($"Seu texto é: {xpto}");
+             
+        }
+
         //métodos
 
         public void ExibirDados()
