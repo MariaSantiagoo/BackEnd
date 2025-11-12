@@ -12,5 +12,18 @@ namespace Heranca
         public string Modelo;
 
         public int Ano;
+
+        public void ExibirInfo()
+        {
+            Console.WriteLine($"Marca: {Marca}");
+            Console.WriteLine($"Modelo: {Modelo}");
+            Console.WriteLine($"Ano: {Ano}");
+        }
+        
+        public void Acelerar()
+        {
+            Console.WriteLine($"Acelerando o veiculo...");
+            
+        }
     }
 }
